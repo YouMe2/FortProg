@@ -5,7 +5,6 @@ import java.util.concurrent.Semaphore;
 public class SyncPhilosopherS extends Thread {
 
 	private int num;
-	private Object left, right;
 
 	private Semaphore ls, rs;
 
